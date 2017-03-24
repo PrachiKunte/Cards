@@ -1,0 +1,104 @@
+
+#main
+{
+	width: 100%;
+	margin-right: auto;
+    margin-left: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+div
+{
+	display: block;
+}
+.dish-card
+{
+	box-shadow: 1px 1px 10px 2px rgba(254,254,254,0.5);
+}
+
+.col4 
+{
+	float: left;
+	width: 33%;
+	position: relative;
+	padding: 0 2px;
+    margin: 0 0 30px;
+    min-height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.dish-menu
+{
+	box-shadow: 1px 1px 10px 2px;
+}
+
+
+
+.dish-label p
+{
+	position: absolute;
+	left:5px;
+	top: 0px;
+	background-color: #FAEC2A;
+	font-size:12px;
+	font-family: verdana;
+	height: auto;
+	padding:4 4 5 5px;
+}
+
+ /* Star icon */
+ .dish-rating
+ {
+ 	position: absolute;
+    right: 20px;
+    top: 12px;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 13px;
+    line-height: 20px;
+    background: #403141;
+    padding: 0 21px 0 5px;
+    z-index: 2;
+ }
+.icon {
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1.26;
+}
+.icon-star {
+    color: #fff;
+    position: absolute;
+    right: 5px;
+    top: 4px;
+    font-size: 10px;
+}
+.icon-star:before {
+    content: "\2605";
+}
+.dish-desc p
+{
+	margin-left: 5px;
+	font-family: verdana;
+	font-size: 15px;
+    
+}
+.image{
+	width: 100%;
+	height: auto;
+	opacity: 1;
+}
+
+
+.dish-desc p:after
+{
+	display: inline-block;
+    height: 2px;
+    content: " ";
+    margin-top: 10px;
+    text-shadow: none;
+    background-color: #ECECE9;
+    width: 100%;
+}
